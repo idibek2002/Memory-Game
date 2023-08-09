@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <div>
+        <div class="score">
+            <span>Score : <span class="result">0</span></span>
+        </div>
+        <div class="timer">
+            <span> Timer : <span class="resTimer">01:00</span></span>
+        </div>
+    </div>
+    <div id="root">
+        <div class="result__score">
+            <div class="score__result">
+                <span>You Score : <span class="result__final">0</span></span>
+                <span>You Time : <span class="result__time">0</span></span>
+                <span onclick={window.location.reload()} class="restart">Restart</span>
+            </div>
+        </div>
+        <div class="memory">
+            
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
